@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #6c5ce7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    padding: 180px 30px;
+    background: #FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    width: 500px;
+    border-radius: 3px;
+    margin: 20px;
+}
+
+.wrapper .title{
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+    color: #111;
+    position: relative;
+    bottom: 150px;
+}
+
+.wrapper .inputFields{
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.wrapper .inputFields input[type="text"]{
+    border: 1px solid rgba(0, 0, 0, .3);
+    outline: none;
+    width: calc(100% - 60px);
+    height: 100%;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.wrapper .inputFields input[type="text"]:focus{
+    border-color: #6c5ce7;
+}
+
+.wrapper .inputFields button.btn{
+    width: 50px;
+    height: 100%;
+    background: #6c5ce7;
+    color: #FFF;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s;
+}
+
+.wrapper .inputFields button.btn:hover{
+    opacity: 1;
+}
+
+ul li{
+    display: flex;
+    position: relative;
+    top: 100px;
+    right: 435px;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+a{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    left: 53px;
+}
+
+a .icon{
+    width: 50px;
+    height: 100%;
+    background: #e74c3c;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    transition: .3s linear;
+    
+}
+
+
+
+
+form {
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-left: 95px;
+    position: relative;
+    bottom: 150px;
+}
+
+input[type="submit"]{
+    width: 50px;
+    height: 100%;
+    background: #6c5ce7;
+    color: #FFF;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: .8;
+    transition: .3s;
+
+}
+
+.pending-text{
+    color: #111;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
